@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.MainPage">
+
+    <StackLayout>
+        <Label Text="Instituto Tecnologico De Tijuana"
+               TextColor="Blue"
+               FontAttributes="Bold"
+               FontSize="15"
+               HorizontalOptions="Center"/>
+        <Label Text="Desarrollo de Aplicaciones Moviles"
+       TextColor="Blue"
+       FontAttributes="None"
+       FontSize="12"
+       HorizontalOptions="Center"/>
+        <Label Text="Alumno:Manuel Alejandro Sabino Andres"
+               TextColor="blue"
+               FontAttributes="Italic"
+               FontSize="10"
+               TextDecorations="Underline"/>
+        <Label Text="Proceso para elaborar una suma"
+               TextColor="Blue"
+               FontAttributes="Italic"
+               FontSize="10"
+               TextDecorations="None"/>
+        <Image Source="EXAMEN3.png"
+               HeightRequest="300"
+               WidthRequest="300"
+               HorizontalOptions="Center"
+               Aspect="Fill" />
+        <Button Text="Suma"
+                
+
+
+    </StackLayout>
+
+</ContentPage>
